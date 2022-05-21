@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    position: relative;
+    opacity: 1;
+    overflow: hidden;
+    font-size: 14px;
+}
+.background{
+    width: 100%;
+    height: 1080px;
+    background: url(background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    opacity: 1;
+    overflow: hidden;
+    backdrop-filter: blur(20px);
+
+}
+.title{
+    position: absolute;
+    width: 591px;
+    height: 79px;
+    left: 147px;
+    top: 69px;
+}
+.logo{
+    position: relative;
+    width: 82px;
+    height: 79px;
+    left: 0px;
+    top: 0px; 
+}
+.title1{
+    width: 600px;
+    color: #7FE0DA;
+    position: absolute;
+    top: 13px;
+    left: 70px;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+}
+.options{
+    position: absolute;
+    width: 329px;
+    height: 48px;
+    left: 1406px;
+    top: 79px;
+}
+.login{
+    width: 97px;
+    color: #000000;
+    position: absolute;
+    top: 13px;
+    left: 0px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+}
+.login::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #2986f0;
+    display: block;
+    margin: auto;
+    transition: 0.8s;
+}
+.login:hover::after{
+    width: 100%;
+}
+.create{
+    width: 204px;
+    height: 48px;
+    position: absolute;
+    background: rgba(91, 239, 203, 0.6);
+    top: 0px;
+    left: 125px;
+    border-radius: 26px;
+    border: 1px transparent;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.create:hover{
+    background: rgba(105, 240, 135, 1);
+}
+.create a{
+    width: 127px;
+    color: #000000;
+    position: absolute;
+    left: 40px;
+    top: 10px;
+    font-weight: 500;
+    font-size: 24px;
+    font-style: italic;
+    text-decoration: none;
+    text-align: center;
+}
+.text{
+    width: 887px;
+    height: 424px;
+    top: 271px;
+    left: 140px;
+    position: absolute;
+}
+.intro{
+    width: 887px;
+    background: linear-gradient(180deg, #1584EA 0%, rgba(0, 5, 6, 0.8) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    position: relative;
+    top: 0;
+    left: 0;
+    font-weight: 900px;
+    font-size: 64px;
+    font-style: bold;
+    text-align: center;
+}
+.intro1{
+    width: 726px;
+    position: absolute;
+    background: linear-gradient(270.55deg, #1584EA 31.69%, rgba(0, 5, 6, 0.8) 102.41%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    top:185px;
+    left: 0px;
+    font-weight: 500px;
+    font-size: 32px;
+    font-style: italic;
+}
+.togo{
+    width: 287px;
+    height: 60px;
+    position: absolute;
+    background: rgba(97, 190, 220, 0.62);
+    border-radius: 80px;
+    top: 364px;
+    left: 40px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.togo:hover{
+    background: rgba(31, 208, 240);
+}
+.togo a{
+    width: 173px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 10px;
+    left: 55px;
+    font-weight: 400px;
+    font-size: 24px;
+    text-decoration: none;
+    text-align: center;
+}
+.card1{
+    width: 395px;
+    height: 307px;
+    top: 750px;
+    left: 557px;
+    position: absolute;
+}
+.text-box{
+    width: 395px;
+    height: 307px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    background: rgba(97, 190, 220, 0.67);
+    border-radius: 40px;
+}
+.content1, .content3{
+    width: 289px;
+    color: #000000;
+    position: absolute;
+    top: 25px;
+    left: 49px;
+    font-weight: 500px;
+    font-size: 32px;
+    font-style: bold;
+    text-align: center;
+}
+.line{
+    position: absolute;
+    width: 325px;
+    height: 0px;
+    left: 30px;
+    top: 75px;
+    border: 1px solid #F79393;
+    transform: rotate(0.18deg);
+}
+.spec1, .spec3{
+    width: 349px;
+    color: #000000;
+    position: absolute;
+    top: 108px;
+    left: 23px;
+    font-weight: 400px;
+    font-size: 23px;
+    font-style: medium;
+    text-align: left;
+}
+.card2{
+    width: 395px;
+    height: 307px;
+    top: 750px;
+    left: 961px;
+    position: absolute;
+}
+.content2{
+    width: 289px;
+    color: #000000;
+    position: absolute;
+    top: 25px;
+    left: 49px;
+    font-weight: 500px;
+    font-size: 27px;
+    font-style: bold;
+    text-align: center;
+}
+.spec2{
+    width: 349px;
+    color: #000000;
+    position: absolute;
+    top: 108px;
+    left: 23px;
+    font-weight: 400px;
+    font-size: 22px;
+    font-style: medium;
+    text-align: left;
+}
+.card3{
+    width: 395px;
+    height: 307px;
+    top: 750px;
+    left: 1365px;
+    position: absolute;
+}
